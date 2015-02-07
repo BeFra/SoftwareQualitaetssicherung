@@ -40,7 +40,6 @@ public class QuickSortTest {
 		}
 	}
 
-	// Fertig sortiertes Feld
 	@Test
 	public void sortIntArrayFast() {
 		Integer[] values = new Integer[] { 5, 2, 8, 1, 4 };
@@ -50,7 +49,6 @@ public class QuickSortTest {
 		asserArrayIsSorted(values);
 	}
 
-	// Fertig sortiertes Feld
 	@Test
 	public void arrayWithDuplicates() {
 		Integer[] values = new Integer[] { 7, 5, 3, 5 };
